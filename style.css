@@ -107,18 +107,39 @@ p{
     transition: all 0.5s ease;
 }
 
+.cnt-info-col a:hover {
+    color: #f47514;
+}
 
+section.header-bg-parent {
+    position: relative; 
+    top: -65px;
+}
 
+.header-col1{
+    float: left;
+    width: 25%;
+    position: absolute;
+    top: 36%;
+    left: 14%;
+}
+.header-col1 h5{
+    color: #3b3663;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
+.header-col1 h2 {
 
+}
 
-
-
-
-
-
-
-
-
-
-
+.header-col2{
+    float: right;
+    background-image: url(./images/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 75%;
+}
