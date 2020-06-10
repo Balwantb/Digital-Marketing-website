@@ -162,7 +162,7 @@ section.header-bg-parent {
 
 button.common-btn {
     background: linear-gradient(90deg, #8b81ef,#6759e8);
-    padding: 25px 35px;
+    padding: 15px 20px;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -223,4 +223,93 @@ button.common-btn:hover{
     margin: 30px 0px;
 }
 
+.feature-col h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
 
+/* why choose us */
+
+.why-choose-col {
+    float: left;
+    width: 50%;
+}
+
+.count-col {
+    float: right;
+    width: 50%;
+}
+
+.stat {
+    float: left;
+    width: 30%;
+}
+
+.stat-info-par {
+    float: right;
+    width: 70%;
+}
+
+.why-choose-col p {
+    color: #696687;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Rubik";
+    font-weight: 400;
+    padding: 13px 100px 0px 0px;
+}
+
+.milestone-counter {
+    margin: 25px;
+}
+
+.highlight {
+    color: #3b3663;
+    padding-top: 20px;
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 56px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.highlight:after {
+    content: "*";
+    color: #f47a14;
+    position: absolute;
+    top: 10px;
+    right: 79px;
+    font-size: 30px;
+}
+
+.stat-info-div p {
+    color: #3b3663;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Rubik";
+    padding: 20px 0px;
+}
+
+.stat-info-sub-par {
+    margin: 50px 0px 40px;
+}
+
+.stat-info-div {
+    position: relative;
+}
+
+.stat-info-div::before {
+ content: "s";
+ border-left: 1px solid #ddd;
+ position: absolute;
+ height: 85px;
+ font-size: 0;
+ left: -14px;
+}
+
+section#why-choose-us {
+    margin-top: 60px;
+}
