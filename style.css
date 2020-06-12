@@ -226,7 +226,7 @@ button.common-btn:hover{
 .feature-col h4 {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
-    color: #4d4d4d;
+    color: #242424;
     margin-bottom: 20px;
 }
 
@@ -245,8 +245,9 @@ button.common-btn:hover{
 .stat {
     float: left;
     width: 30%;
-}
 
+}
+ 
 .stat-info-par {
     float: right;
     width: 70%;
@@ -312,4 +313,124 @@ button.common-btn:hover{
 
 section#why-choose-us {
     margin-top: 60px;
+}
+
+/*progress bar*/
+
+
+.circle canvas {
+    vertical-align: top;
+    width: 120px !important;
+}
+
+.circle strong {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: black;
+}
+
+.circle strong i{
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+.progress-bar-col {
+    float: left;
+    width: 30%;
+}
+
+.progress-info-col {
+    float: right;
+    width: 70%;
+}
+
+.progress-info{
+    margin: 20px 0px 60px;
+}
+
+.progress-info h3{
+    color: #f47a14;
+    font-family: "Nunito";
+    font-weight: 700;
+}
+
+.expand-img-col {
+    float: left;
+    width: 50%; 
+    margin: 50px;
+}
+
+.expand-img-info-col {
+    float: left;
+    width: 50%;
+    margin-top: 100px;  
+}
+
+.expand-img {
+    position: relative;
+}
+
+.expand-img-info {
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    color: #fff;
+}
+
+.expand-img-info {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.expand-img-info h2{
+    font-size: 46px;
+    font-weight: 800;
+    font-family: "Nunito";
+    line-height: 60px;
+}
+
+.expand-img-info a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 25px;
+    display: inline-block;
+}
+
+.expand-img-info i.fa.fa-long-arrow-right{
+    font-size: 17px;
+}
+
+.progress-info h3{
+    color: #f47a14;
+    font-family: "Nunito";
+    font-weight: 600;
+}
+
+.progress-info p{
+    color: #696687;
+    font-size: 16px;
+    font-family: "Rubik";
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.progress-info {
+    margin: 30px 0 60px;
+}
+
+section#expand {
+    margin: 70px 0px;
 }
